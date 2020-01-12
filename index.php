@@ -24,7 +24,7 @@ $result3 = dns_get_record($next2,DNS_A);
 $next3 = $result3[0]['ip'];
 //echo $next3;
 
-echo "<h1>This webapp is called:  " . $hostname . "</h1>";
+echo "<h1>The URL being accessed is:  " . $hostname . "</h1>";
 echo "<br>";
 echo "<h1>The IP is:  " . $next3 . "</h1>";
 ?>
